@@ -4,7 +4,8 @@
 	--gray-tint-30: #63666E;
 	--gray-tint-50: #909298;
 	--gray-tint-80: #D2D3D6;
-	--gray-alpha-80: rgb(32 36 48 / .8); /* CSS Colors Level 4 */
+	--gray-alpha-80: rgb(32 36 48 / .8);
+	/* CSS Colors Level 4 */
 	--gray-tint-90: #E9E9EA;
 
 	--white-base: #fff;
@@ -71,4 +72,33 @@ body {
 #main-header a {
 	display: flex;
 	align-items: center;
+}
+
+#main-header nav {
+	justify-content: space-between;
+}
+
+#main-header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	gap: 2rem;
+}
+
+#main-header svg {
+	fill: var(--top-bar-icon-fill);
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+#toggle-icon-close,
+#main-header__logo,
+#main-header a span {
+	display: none;
+}
+
+#main-header__sidebar-toggle {
+	appearance: none;
+	background-color: transparent;
+	border: none;
 }
