@@ -60,3 +60,15 @@ body {
 	font-family: 'Figtree', sans-serif;
 	color: var(--gray-base);
 }
+
+#main-header {
+	background-color: var(--main-header-bg);
+	padding: 1rem 1.5rem;
+}
+
+#main-header nav,
+#main-header ul,
+#main-header a {
+	display: flex;
+	align-items: center;
+}
