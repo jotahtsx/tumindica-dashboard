@@ -51,10 +51,8 @@
 	--main-header-link-color: var(--gray-base);
 }
 
-
 html {
 	font-size: 100%;
-	line-height: 1.4;
 }
 
 body {
@@ -79,22 +77,22 @@ body {
 }
 
 #main-header nav ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	gap: 2rem;
 }
 
 #main-header svg {
-	fill: var(--top-bar-icon-fill);
-	height: 1.5rem;
 	width: 1.5rem;
+	height: 1.5rem;
+	fill: var(--top-bar-icon-fill);
 }
 
 #toggle-icon-close,
 #main-header__logo,
 #main-header a span {
-	display: none;
+	display: none
 }
 
 #main-header__sidebar-toggle {
@@ -115,7 +113,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 4rem;
-	transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0 , 0);
 	transition: transform .4s ease-in-out;
 }
 
